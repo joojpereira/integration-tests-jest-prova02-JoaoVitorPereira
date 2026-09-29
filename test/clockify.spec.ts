@@ -7,7 +7,7 @@ describe('Clockify API', () => {
   const p = pactum;
   const rep = SimpleReporter;
   const baseUrl = 'https://api.clockify.me/api/v1';
-  const apiKey = process.env.CLOCKIFY_API_KEY || 'M2EzYTM2ZTItZmJhZC00NDQzLWI4ZDktZjk2MWY5M2E4ZTg5';
+  const apiKey = process.env.CLOCKIFY_API_KEY || 'SUA_API_KEY_AQUI';
 
   let workspaceId = '';
   let projectId = '';
