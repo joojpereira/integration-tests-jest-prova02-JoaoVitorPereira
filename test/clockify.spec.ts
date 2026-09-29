@@ -86,4 +86,4 @@ describe('Clockify API', () => {
         .expectStatus(StatusCodes.OK);
     });
   });
-});
+}); 
