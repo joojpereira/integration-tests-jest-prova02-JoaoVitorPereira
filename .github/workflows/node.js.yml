@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm test
-      env:
+        env:
           CLOCKIFY_API_KEY: ${{ secrets.CLOCKIFY_API_KEY }}
 
   sonarcloud:
